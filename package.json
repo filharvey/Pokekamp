@@ -1,0 +1,28 @@
+{
+  "name": "pokekamp",
+  "version": "0.0.1",
+  "description": "A map to help pokemon hunting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:gmtDevs/Pokekamp.git"
+  },
+  "keywords": [
+    "Pokemon",
+    "Map"
+  ],
+  "author": "0mkara",
+  "license": "MIT",
+  "homepage": "https://pokekamp.us",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.4",
+    "pokemon-go-node-api": "^1.3.0",
+    "python-shell": "^0.4.0",
+    "socket.io": "^1.4.8"
+  }
+}
